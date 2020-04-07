@@ -1,56 +1,29 @@
 [
-  {
-    "question_id" : 0,
-    "question": "What is the original native name of Mount Rainier?",
-    "answers": [
-      {"id": 0, "text": "Tahoma"},
-      {"id": 1, "text": "Shuksan"},
-      {"id": 2, "text": "Stillaguamish"}
-
-    ],
-    "correct": 0
-  },
-  {
-    "question_id" : 1,
-		"question" : "Which image shows a close-up of the Nisqually Glacier?",
-		"answers"  : [
-			{"id"  : 0, "image" : "images/quizImages/glacier_01.jpg" },
-			{"id"  : 1, "image" : "images/quizImages/glacier_02.jpg" },
-			{"id"  : 2, "image" : "images/quizImages/glacier_03.jpg" },
-			{"id"  : 3, "image" : "images/quizImages/glacier_04.jpg" }
-		],
-		"correct"  : 3
-	},
-	{
-      "question_id" : 2,
-		"question" : "True or false: Mount Rainier is an active volcano?",
-		"answers"  : [
-			{"id"  : 0, "text" : "False"},
-			{"id"  : 1, "text" : "True"}
-
-		],
-		"correct"  : 1
-	},
-	{
-      "question_id" : 3,
-		"question" : "How many major glaciers are on top of Mount Rainier?",
-		"answers"  : [
-			{"id"  : 0, "text" : "9"},
-			{"id"  : 1, "text" : "36"},
-			{"id"  : 2, "text" : "26"}
-		],
-		"correct"  : 2
-	},
-	{
-      "question_id" : 4,
-		"question" : "Which American poet wrote a poem about the Nisqually Glacier, titled 'An Octopus?'",
-		"answers"  : [
-			{"id"  : 0, "text" : "Robert Frost", "image": "images/quizImages/frost.jpg"},
-			{"id"  : 1, "text" : "Walt Whitman", "image": "images/quizImages/whitman.jpg"},
-      {"id"  : 2, "text" : "Elizabeth Bishop", "image": "images/quizImages/bishop.jpg"},
-      {"id"  : 3, "text" : "Marianne Moore", "image": "images/quizImages/moore.jpg"}
-
-		],
-		"correct"  : 3
-	}
-]
+    {
+        "question": "Which organ belongs to the Digestive System:",
+        "options": ["Thymus", "Stomach", "Heart", "Trachea"],
+        "answer": 1,
+    },
+    {
+        "question": "Adults have fewer bones than babies do.",
+        "options": ["true", "false"],
+        "answer": 0,
+        "description": "Lots of bones start out as several fragments at birth,then fuse together into a single bone later in life"
+    },
+    {
+        "question": "Our human body has.........",
+        "options": ["206 bones", "210 bones", "306 bones", "706 bones"],
+        "answer": 0,
+    },
+    {
+        "question": "Your fingernails and hair keep growing after you die.",
+        "options": ["true", "false"],
+        "answer": 1,
+        "description": "They really don't"
+    },
+    {
+        "question": "One important function of bones is to produce.",
+        "options": ["tendons", "ligaments", "blood cells", "cartilage"],
+        "answer": 2,
+    }
+] 
