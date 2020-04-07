@@ -3,10 +3,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(./img/bg.jpg);
     background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
+}
+
+.bg-body {
+    background-image: url(./img/bg.jpg);
 }
 
 * {
@@ -384,7 +387,45 @@ body {
 }
 
 
-/* Responsive */
+/* ------------------LOADER------------------------ */
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.plus {
+    margin: 64px 0;
+}
+
+.plus svg {
+    width: 144px;
+    height: 144px;
+}
+
+.logo {
+    stroke-dasharray: 560;
+    stroke-dashoffset: 560;
+    animation: logoStroke 1.75s linear forwards, logoStrokeFill 0.75s cubic-bezier(0.445, 0.050, 0.550, 0.950) 2s forwards;
+}
+
+@keyframes logoStroke {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes logoStrokeFill {
+    to {
+        stroke: #0bb2da;
+        fill: #0bb2da;
+    }
+}
+
+
+/*------------------ Responsive ----------------------------*/
 
 @media only screen and (max-width: 767px) {
     .custom-box {
@@ -428,5 +469,8 @@ body {
     }
     .quiz-over-box {
         margin-top: 25%;
+    }
+    .loader {
+        margin-top: 50%;
     }
 }

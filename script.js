@@ -21,34 +21,25 @@ let score = 0;
 let number = 0;
 let interval;
 
-myApp = [{
-        question: "Which organ belongs to the Digestive System:",
-        options: ["Thymus", "Stomach", "Heart", "Trachea"],
-        answer: 1,
-    },
-    {
-        question: "Adults have fewer bones than babies do.",
-        options: ["true", "false"],
-        answer: 0,
-        description: "Lots of bones start out as several fragments at birth,then fuse together into a single bone later in life"
-    },
-    {
-        question: "Our human body has.........",
-        options: ["206 bones", "210 bones", "306 bones", "706 bones"],
-        answer: 0,
-    },
-    {
-        question: "Your fingernails and hair keep growing after you die.",
-        options: ["true", "false"],
-        answer: 1,
-        description: "They really don't"
-    },
-    {
-        question: "One important function of bones is to produce.",
-        options: ["tendons", "ligaments", "blood cells", "cartilage"],
-        answer: 2,
-    }
-]
+let myApp = [];
+
+window.onload = () => {
+    fetch("https://nil1729.github.io/QuizApp/quizdata.json")
+        .then(function(resp) {
+            return resp.json();
+        })
+        .then(function(data) {
+            for (let i = 0; i < data.length; i++) {
+                myApp.push({ question: data[i].question, options: data[i].options, answer: data[i].answer, description: data[i].description });
+            }
+        });
+    setTimeout(() => {
+        document.querySelector(".loader").style.display = "none";
+        document.querySelector("body").classList.add("bg-body");
+        document.querySelector(".loader").remove();
+        quizHomeBox.classList.add('show');
+    }, 3000);
+};
 
 function generateRandomQuestion() {
     const randomNumber = Math.floor(Math.random() * myApp.length);
