@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="quiz-home-box custom-box show">
+        <div class="quiz-app-name">
+            <h2>The Quiz App</h2>
+        </div>
+        <h4>You'll have 15 seconds to answer each question.</h4>
+        <button class="start-quiz-btn btn" type="button">Start The Quiz</button>
+    </div>
+
+    <div class="quiz-box custom-box">
+        <div class="quiz-app-name">
+            <h2>The Quiz App</h2>
+        </div>
+        <div class="stats">
+            <div class="quiz-time">
+                <div class="remaining-time"></div>
+                <span class="time-up-text">Time's up</span>
+            </div>
+            <div class="score-board">
+                <span class="score-text">Score: </span>
+                <span class="correct-answers"></span>
+            </div>
+        </div>
+        <div class="question-box">
+            <div class="current-question-num">
+
+            </div>
+            <div class="question-text">
+
+            </div>
+        </div>
+        <div class="option-box">
+
+        </div>
+        <div class="answer-description">
+
+        </div>
+        <div class="next-question">
+            <button type="button" class="next-question-btn btn">Next Question</button>
+            <button type="button" class="see-result-btn btn">See Your Result</button>
+        </div>
+    </div>
+
+    <div class="quiz-over-box custom-box">
+        <h1>Quiz Results</h1>
+        <h4>Total Question: <span class="total-questions"></span></h4>
+        <h4>Attempt: <span class="total-attempt"></span></h4>
+        <h4>Correct: <span class="total-correct"></span></h4>
+        <h4>Wrong: <span class="total-wrong"></span></h4>
+        <h4>Percentage: <span class="percentage"></span></h4>
+        <button type="button" class="start-again-quiz-btn btn">Start Again</button>
+        <button type="button" class="go-to-home-btn btn">Go To Home</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
