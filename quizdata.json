@@ -1,4 +1,5 @@
-{
+[
+    {
         "question": "Which organ belongs to the Digestive System:",
         "options": ["Thymus", "Stomach", "Heart", "Trachea"],
         "answer": 1
@@ -25,3 +26,4 @@
         "options": ["tendons", "ligaments", "blood cells", "cartilage"],
         "answer": 2
     }
+] 
