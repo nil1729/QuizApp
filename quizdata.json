@@ -1,7 +1,7 @@
 [{
         "question": "Which organ belongs to the Digestive System:",
         "options": ["Thymus", "Stomach", "Heart", "Trachea"],
-        "answer": 1,
+        "answer": 1
     },
     {
         "question": "Adults have fewer bones than babies do.",
@@ -12,7 +12,7 @@
     {
         "question": "Our human body has.........",
         "options": ["206 bones", "210 bones", "306 bones", "706 bones"],
-        "answer": 0,
+        "answer": 0
     },
     {
         "question": "Your fingernails and hair keep growing after you die.",
@@ -23,6 +23,6 @@
     {
         "question": "One important function of bones is to produce.",
         "options": ["tendons", "ligaments", "blood cells", "cartilage"],
-        "answer": 2,
+        "answer": 2
     }
 ]
