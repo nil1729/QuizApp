@@ -428,6 +428,9 @@ body {
 /*------------------ Responsive ----------------------------*/
 
 @media only screen and (max-width: 767px) {
+    body{
+        overflow-y: scroll;
+     }
     .custom-box {
         padding: 10px 15px 20px 15px;
         margin: 15px 10px 0 10px;
