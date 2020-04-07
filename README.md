@@ -1,10 +1,6 @@
-## The Quiz App
-This Task is given by BITS PILANI [SU Tech Team](https://su-bitspilani.org/index.html). It is created using vanilla Javascript and Fetch API calling. For Using this App and want to put your own questions, just put your question in  the **quizdata.json** file. 
-
-
 # The Quiz App #
 
-This is a simple JavaScript quiz app.
+This is a simple JavaScript quiz app. This Task is given by BITS PILANI [SU Tech Team](https://su-bitspilani.org/index.html).
 
 Take the [sample quiz](https://nil1729.github.io/QuizApp/) to see how it works.
 
