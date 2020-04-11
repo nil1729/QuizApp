@@ -6,7 +6,7 @@ body {
     background-image: url('../img/bg.jpg');
     background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 * {

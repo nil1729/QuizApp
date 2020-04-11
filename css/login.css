@@ -62,6 +62,8 @@ form {
 .login-content h2 span {
     text-transform: capitalize;
     font-family: 'Montaga', serif;
+    color: orangered;
+    letter-spacing: 1px;
 }
 
 .login-content .input-div {
