@@ -1,79 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Quiz App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Quiz Login Form</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-
-    <div class="loader">
-        <div class="plus">
-            <svg x="0" y="0" viewBox="0 0 147 147" enable-background="new 0 0 147 147" xml:space="preserve">
-        <path class="logo" fill="#ffffff" stroke="#A7A9AC" stroke-width="3" stroke-miterlimit="10" d="M58.6,5.8v52.7H5.8c-2.4,0-4.3,1.9-4.3,4.3v21.3
-          c0,2.4,1.9,4.3,4.3,4.3h52.8v52.7l0,0c0,2.4,1.9,4.3,4.3,4.3h21.3c2.4,0,4.3-1.9,4.3-4.3V88.4h52.8c2.4,0,4.3-1.9,4.3-4.3V62.9
-          c0-2.4-1.9-4.3-4.3-4.3H88.4V5.8c0-2.4-1.9-4.3-4.3-4.3H62.9C60.5,1.5,58.5,3.4,58.6,5.8"/>
-        </svg>
+    <img class="wave" src="img/wave.png">
+    <div class="container">
+        <div class="img">
+            <img src="img/bg.svg">
+        </div>
+        <div class="login-content">
+            <form action="javascript:void(0)">
+                <img src="img/avatar.svg">
+                <h2 class="title">Welcome To <span>The Quiz App</span></h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" class="input">
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Password</h5>
+                        <input type="password" class="input">
+                    </div>
+                </div>
+                <a href="javascript:void(0)">Forgot Password?</a>
+                <input type="submit" class="btn" value="Login" onclick="myFunction()">
+            </form>
         </div>
     </div>
-
-    <div class="quiz-home-box custom-box">
-        <div class="quiz-app-name">
-            <h2>The Quiz App</h2>
-        </div>
-        <h4>You'll have 15 seconds to answer each question.</h4>
-        <button class="start-quiz-btn btn" type="button">Start The Quiz</button>
-    </div>
-
-    <div class="quiz-box custom-box">
-        <div class="quiz-app-name">
-            <h2>The Quiz App</h2>
-        </div>
-        <div class="stats">
-            <div class="quiz-time">
-                <div class="remaining-time"></div>
-                <span class="time-up-text">Time's up</span>
-            </div>
-            <div class="score-board">
-                <span class="score-text">Score: </span>
-                <span class="correct-answers"></span>
-            </div>
-        </div>
-        <div class="question-box">
-            <div class="current-question-num">
-
-            </div>
-            <div class="question-text">
-
-            </div>
-        </div>
-        <div class="option-box">
-
-        </div>
-        <div class="answer-description">
-
-        </div>
-        <div class="next-question">
-            <button type="button" class="next-question-btn btn">Next Question</button>
-            <button type="button" class="see-result-btn btn">See Your Result</button>
-        </div>
-    </div>
-
-    <div class="quiz-over-box custom-box">
-        <h1>Quiz Results</h1>
-        <h4>Total Question: <span class="total-questions"></span></h4>
-        <h4>Attempt: <span class="total-attempt"></span></h4>
-        <h4>Correct: <span class="total-correct"></span></h4>
-        <h4>Wrong: <span class="total-wrong"></span></h4>
-        <h4>Percentage: <span class="percentage"></span></h4>
-        <button type="button" class="start-again-quiz-btn btn">Start Again</button>
-        <button type="button" class="go-to-home-btn btn">Go To Home</button>
-    </div>
-
-    <script src="script.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
 </body>
 
 </html>

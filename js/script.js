@@ -35,10 +35,9 @@ window.onload = () => {
         });
     setTimeout(() => {
         document.querySelector(".loader").style.display = "none";
-        document.querySelector("body").classList.add("bg-body");
         document.querySelector(".loader").remove();
         quizHomeBox.classList.add('show');
-    }, 3000);
+    }, 4500);
 };
 
 function generateRandomQuestion() {
@@ -229,10 +228,7 @@ seeResultsBtn.addEventListener('click', () => {
 nextQuestionBtn.addEventListener("click", nextQuestion);
 
 startAgainQuizBtn.addEventListener('click', () => {
-    quizBox.classList.add('show');
-    quizOverBox.classList.remove('show');
-    resetQuiz();
-    nextQuestion();
+    location.replace("./end.html")
 })
 
 goHomeBtn.addEventListener('click', () => {
