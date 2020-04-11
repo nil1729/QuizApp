@@ -27,29 +27,29 @@
     },
     {
         "question": "Which of the following has become the first country to make all forms of public transport free?",
-        "option": ["Monaco", "Liechtenstein", "Luxembourg", "Andorra"],
+        "options": ["Monaco", "Liechtenstein", "Luxembourg", "Andorra"],
         "answer": 2,
         "description": "Luxembourg in Europe has become the first country to make all forms of public transport free. It is the second smallest country in the European Union"
     },
     {
         "question": "Which of the following has become the first country to make all forms of public transport free?",
-        "option": ["Monaco", "India", "Japan", "Singapore"],
+        "options": ["Monaco", "India", "Japan", "Singapore"],
         "answer": 3
     },
     {
         "question": "Which country is to host Commonwealth shooting, archery events in 2022?",
-        "option": ["Australia", "India", "Brunei", "Cameroon"],
+        "options": ["Australia", "India", "Brunei", "Cameroon"],
         "answer": 3,
         "description": "India to host Commonwealth shooting, archery events at Chandigarh in January 2022"
     },
     {
         "question": "26 The International Criminal Police Organisation (INTERPOL) has its headquarters at",
-        "option": ["Montreal", "Bonn", "Paris", "London"],
+        "options": ["Montreal", "Bonn", "Paris", "London"],
         "answer": 2
     },
     {
         "question": "30 Where is the headquarters of Botanical Survey of India located?",
-        "option": ["Kolkata", "Lucknow", "Ootacmund", "Darjeeling"],
+        "options": ["Kolkata", "Lucknow", "Ootacmund", "Darjeeling"],
         "answer": 0
     }
 ]
