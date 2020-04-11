@@ -30,7 +30,7 @@ window.onload = () => {
         })
         .then(function(data) {
             for (let i = 0; i < data.length; i++) {
-                console.log(data[i]);
+                // console.log(data[i]);
                 myApp.push({ question: data[i].question, options: data[i].options, answer: data[i].answer, description: data[i].description });
             }
         });
